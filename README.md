@@ -4,7 +4,7 @@ import time
 import random
 from telebot import types
 
-bot=telebot.TeleBot("589973338:AAFJns18brDWA5wxov4RFBbk3JIaE_OYrFw")
+bot=telebot.TeleBot("Токен")
 
 @bot.message_handler(commands=['start'])
 def start(message):
